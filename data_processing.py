@@ -7,7 +7,7 @@ def subset_df(df: pd.DataFrame, column_type: type) -> pd.DataFrame:
     
     Parameters:
     - df: The pandas DataFrame to be subsetted.
-    - column_type: The data type of the column used for subsetting.
+    - column_type: The data type of the column used for subsetting. eg. float, int, bool
     
     Returns:
     - The subsetted pandas DataFrame containing only columns of the specified type.

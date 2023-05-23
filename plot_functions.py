@@ -15,16 +15,16 @@ def show_available_plot_styles():
 
 def plot_histogram(data: List[float], 
                    bins: int =25, 
-                   color='blue', 
-                   edgecolor='black', 
-                   alpha=0.7,
-                   xlabel='', ylabel='', 
-                   title='', 
+                   color: str ='blue', 
+                   edgecolor: str ='black', 
+                   alpha: float =0.7,
+                   xlabel: str ='', ylabel: str ='', 
+                   title: str ='', 
                    grid: bool= False, 
                    xlim: Optional[Tuple[float,float]]=None, 
-                   ylim=None,
+                   ylim: Optional[Tuple[float, float]]=None,
                    figsize: Tuple[float,float]=(8, 6), 
-                   legend=False) -> None:
+                   legend: bool=False) -> None:
     """
     Function to create a customizable histogram using Matplotlib.
     

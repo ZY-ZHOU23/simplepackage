@@ -5,16 +5,16 @@ with open("README.md",'r') as f:
 
 setuptools.setup(
     name="simplepackage",
-    version="0.2",
-    author="Jose Toledo",
-    author_email="toledo60@protonmail.com",
+    version="0.0.1",
+    author="Zhiyuan Zhou",
+    author_email="test@protonmail.com",
     description="Simple Python Package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=['numpy','pandas','matplotlib'],
-    url="https://github.com/toledo60/simple_package",
+    url="https://github.com/ZY-ZHOU23/simplepackage",
     project_urls={
-        "Bug Tracker": "https://github.com/toledo60/simple_package/issues",
+        "Bug Tracker": "https://github.com/ZY-ZHOU23/simplepackage/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
